@@ -30,7 +30,22 @@ RBAC是Role Based Access Control的缩写，是基于角色的访问控制。一
 + Druid
 + Thymeleaf（第一次使用）
 
-### 五、具体实现
+
+
+### 五、liquibase
+参考:     
+Intelligent with spring boot    
+https://segmentfault.com/a/1190000016641122
+
+generate change log from an exists database     
+https://www.baeldung.com/liquibase-refactor-schema-of-java-app  
+mvn命令
+```
+mvn liquibase:generateChangeLog
+```
+
+
+### 六、具体实现
 
 首先，我们需要完成整个框架的整合，使用Spring Boot非常的方便，配置application.properties文件即可，
 配置如下：
